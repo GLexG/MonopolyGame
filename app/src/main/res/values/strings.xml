@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MonopolyApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_score">Score</string>
+
+    <string name="radioButton1">Player1</string>
+    <string name="radioButton2">Player2</string>
+    <string name="radioButton3">PLayer3</string>
+    <string name="radioButton4">Player4</string>
+    <string name="new_player">Type Name</string>
+</resources>

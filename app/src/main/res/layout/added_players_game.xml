@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.gl100531d.monopolyapp.Controller.AddedPlayersActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+            android:id="@+id/player_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodati Igraci"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <ImageView
+            android:id="@+id/image_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="imageClick"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/add"/>
+
+</RelativeLayout>

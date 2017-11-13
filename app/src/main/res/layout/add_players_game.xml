@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.gl100531d.monopolyapp.Controller.AddPlayersActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+<!--    <Button
+            android:id="@+id/dugme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj macku"
+            android:onClick="dodajMacku"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>-->
+    <TextView
+            android:id="@+id/player_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izaberi Igraca"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>

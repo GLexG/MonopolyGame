@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Controller.BoardActivity">
+
+    <item android:id="@+id/startGame"
+          android:title="Start Game!"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/endGame"
+          android:title="Exit Game!"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/game_settings"
+          android:title="Exit Game!"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Add Player"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/new_player"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:hint="@string/new_player"
+        android:inputType="textCapWords"
+        android:maxLength="20" />
+
+
+
+</LinearLayout>
